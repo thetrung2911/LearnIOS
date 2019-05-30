@@ -19,19 +19,20 @@ class ViewController: UIViewController {
     var i = 0
     var j = 0
     var max = 7
+    var min = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpControl()
         timer = Timer.scheduledTimer(timeInterval: 0.25,
                                      target: self,
-                                     selector: #selector(gameLoop2),
+                                     selector: #selector(gameLoop3),
                                      userInfo: nil,
                                      repeats:  true)
 
     }
     @objc func gameLoop1(){
-        // bài chạy hình vuông theo chiều kim đồng hồ, chạy ngược lại ngay sau thì em chưa làm được.
+//         bài chạy hình vuông theo chiều kim đồng hồ, chạy ngược lại ngay sau thì em chưa làm được.
         if j < max && i == 0{
             j = j + 1
             image.removeFromSuperview()
@@ -52,6 +53,7 @@ class ViewController: UIViewController {
                 timer.invalidate()
             }
         }
+//        gameLopp(max, min)
     }
     @objc func gameLoop2(){
         // bài cánh bướm
@@ -78,6 +80,44 @@ class ViewController: UIViewController {
             }
         }
         
+    }
+    @objc func gameLoop3(){
+        // bài chạy hình vuông theo xoắn ốc
+        
+        if i == min || i == max || j == min || j == max {
+            gameLopp(7, 0)
+        }else if i == 1 || i == 6 || j == 1 || j == 6 {
+            gameLopp(6, 1)
+        }else if i == 2 || i == 5 || j == 2 || j == 5 {
+            gameLopp(5, 2)
+        }else if j == 3 && i == 4 {
+            timer.invalidate()
+        }else if i == 3 || i == 4 || j == 3 || j == 4 {
+            gameLopp(4, 3)
+        }
+    }
+    func gameLopp(_ max: Int,_ min: Int){
+        if j < max && i == min {
+            j = j + 1
+            image.removeFromSuperview()
+            placeQueen(isWhite: true, row: i, col: j)
+        }else if i < max && j == max {
+            i = i + 1
+            image.removeFromSuperview()
+            placeQueen(isWhite: true, row: i, col: j)
+        }else if i  == max && j > min {
+            j = j - 1
+            image.removeFromSuperview()
+            placeQueen(isWhite: true, row: i, col: j)
+        }else if j == min && i > min + 1  {
+            i = i - 1
+            image.removeFromSuperview()
+            placeQueen(isWhite: true, row: i, col: j)
+        }else if j == min && i == min + 1  {
+            j = j + 1
+            image.removeFromSuperview()
+            placeQueen(isWhite: true, row: i, col: j)
+        }
     }
 
     func setUpControl() {
