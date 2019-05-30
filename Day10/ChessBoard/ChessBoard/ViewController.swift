@@ -25,12 +25,13 @@ class ViewController: UIViewController {
         setUpControl()
         timer = Timer.scheduledTimer(timeInterval: 0.25,
                                      target: self,
-                                     selector: #selector(gameLoop1),
+                                     selector: #selector(gameLoop2),
                                      userInfo: nil,
                                      repeats:  true)
 
     }
     @objc func gameLoop1(){
+        // bài chạy hình vuông theo chiều kim đồng hồ, chạy ngược lại ngay sau thì em chưa làm được.
         if j < max && i == 0{
             j = j + 1
             image.removeFromSuperview()
@@ -53,20 +54,23 @@ class ViewController: UIViewController {
         }
     }
     @objc func gameLoop2(){
-        if i < max && j == 0{
+        // bài cánh bướm
+        if i == j && j < max {
             i = i + 1
-            image.removeFromSuperview()
-            placeQueen(isWhite: true, row: i, col: j)
-        }else if j < max && i == max {
             j = j + 1
             image.removeFromSuperview()
             placeQueen(isWhite: true, row: i, col: j)
-        }else if j  == max && i > 0 {
+        }else if i > 0 && j == max {
             i = i - 1
             image.removeFromSuperview()
             placeQueen(isWhite: true, row: i, col: j)
-        }else if i == 0 && j > 0  {
+        }else if i + j == 7 && j > 0 {
+            i = i + 1
             j = j - 1
+            image.removeFromSuperview()
+            placeQueen(isWhite: true, row: i, col: j)
+        }else if i > 0 && j == 0  {
+            i = i - 1
             image.removeFromSuperview()
             placeQueen(isWhite: true, row: i, col: j)
             if j == 0 && i == 0{
