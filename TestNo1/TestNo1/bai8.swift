@@ -8,15 +8,18 @@
 
 
 import Foundation
+
+/*
+    Tạo mảng zigzac
+ */
 func bai8(){
     
-    let NumColumns = 10
-    let NumRows = 10
-    var matrix:[[Int]] = [[Int]](repeating:[Int](repeating:0, count: NumColumns), count:NumRows)
-    for i in 0..<5{
+    let m = 6
+    var matrix:[[Int]] = [[Int]](repeating:[Int](repeating:0, count: m), count:m)
+    for i in 0..<Int((m+1) / 2){
        setArr(&matrix, i)
     }
-    for i in 0..<10{
+    for i in 0..<m{
         setAr(&matrix, i)
     }
     
