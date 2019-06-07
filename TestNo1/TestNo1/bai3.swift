@@ -7,8 +7,11 @@
 //
 
 import Foundation
+/*
+ 3. Cho một mảng gồm n số tự nhiên, hãy chỉ ra phần tử nào có số lần xuất hiện nhiều nhất
+ */
 func bai3(){
-    let array = [1, 2, 1, 2, 1, 3, 1, 4]
+    let array = [1, 2,2,2,2, 1, 2, 1, 3, 1, 4]
     
     var counts = [Int: Int]()
     

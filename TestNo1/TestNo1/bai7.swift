@@ -7,6 +7,9 @@
 //
 
 import Foundation
+/*
+ 7. Cho một mảng gồm n số tự nhiên không trùng lặp, nhập vào một số tự nhiên K, hãy tìm ra tất cả những cặp 2 số không quan tâm đến thứ tự mà tổng của chúng gần bằng K nhất
+ */
 func bai7(){
     var arr = [2, 1, 4, 5, 7, 3, 6, 9, 8]
     var sum = 0

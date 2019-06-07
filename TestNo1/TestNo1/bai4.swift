@@ -7,6 +7,9 @@
 //
 
 import Foundation
+/*
+ 4. Nhập vào số tự nhiên 2 =< m, n < 8, hãy dựng thành một ma trận có m hàng và n cột, các phần tử là số tự nhiên được sinh ngẫu nhiên (random) < 10, in ra màn hình ma trận này
+ */
     func bai4(){
         var array = [2, 1, 5, 4, 7, 8]
         // sắp xếp từ bé đến lớn

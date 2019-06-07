@@ -7,6 +7,9 @@
 //
 
 import Foundation
+/*
+ 2. Cho một mảng gồm n số tự nhiên, hãy viết hàm đảo các phần tử mảng mà không dùng đến mảng tạm
+ */
 func bai2(){
     var array = [10,5,2,15,30]
     // đảo mảng

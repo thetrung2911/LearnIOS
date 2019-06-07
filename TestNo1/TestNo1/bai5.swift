@@ -7,6 +7,10 @@
 //
 
 import Foundation
+/*
+ 5. Nhập vào số tự nhiên 2 =< m, n < 8, hãy dựng thành một ma trận có m hàng và n cột, các phần tử là số tự nhiên được sinh ngẫu nhiên (random) < 10, in ra màn hình ma trận này
+ 6. Từ kết quả bài 5 hãy viết hàm để chuyển vị ma trận
+ */
 func bai5(){
     print("Nhâp số m:")
     let m = Int(readLine()!)!
@@ -20,6 +24,7 @@ func bai5(){
         }
         print("")
     }
+    print("")
     var arr6 = Matrix(rows: n, columns: m)
     for i in 0..<n{
         for j in 0..<m{

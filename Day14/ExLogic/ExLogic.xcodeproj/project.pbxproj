@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90030E7222A969C4007E3F26 /* bai5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90030E7122A969C4007E3F26 /* bai5.swift */; };
+		90030E7422A97151007E3F26 /* bai6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90030E7322A97151007E3F26 /* bai6.swift */; };
+		904C56ED22AA74000042293B /* bai7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C56EC22AA74000042293B /* bai7.swift */; };
 		9056288D22A8F94B00425DFF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056288C22A8F94B00425DFF /* main.swift */; };
 		9056289422A8F95A00425DFF /* bai1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056289322A8F95A00425DFF /* bai1.swift */; };
 		9056289622A8FCA000425DFF /* bai2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056289522A8FCA000425DFF /* bai2.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		90030E7122A969C4007E3F26 /* bai5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai5.swift; sourceTree = "<group>"; };
+		90030E7322A97151007E3F26 /* bai6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai6.swift; sourceTree = "<group>"; };
+		904C56EC22AA74000042293B /* bai7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai7.swift; sourceTree = "<group>"; };
 		9056288922A8F94B00425DFF /* ExLogic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExLogic; sourceTree = BUILT_PRODUCTS_DIR; };
 		9056288C22A8F94B00425DFF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9056289322A8F95A00425DFF /* bai1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai1.swift; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				9056289522A8FCA000425DFF /* bai2.swift */,
 				9056289722A9038600425DFF /* bai3.swift */,
 				9056289B22A9132E00425DFF /* bai4.swift */,
+				90030E7122A969C4007E3F26 /* bai5.swift */,
+				90030E7322A97151007E3F26 /* bai6.swift */,
+				904C56EC22AA74000042293B /* bai7.swift */,
 			);
 			path = ExLogic;
 			sourceTree = "<group>";
@@ -131,6 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904C56ED22AA74000042293B /* bai7.swift in Sources */,
+				90030E7422A97151007E3F26 /* bai6.swift in Sources */,
+				90030E7222A969C4007E3F26 /* bai5.swift in Sources */,
 				9056289822A9038600425DFF /* bai3.swift in Sources */,
 				9056289622A8FCA000425DFF /* bai2.swift in Sources */,
 				9056289422A8F95A00425DFF /* bai1.swift in Sources */,

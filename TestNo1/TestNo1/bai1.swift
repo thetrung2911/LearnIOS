@@ -7,6 +7,9 @@
 //
 
 import Foundation
+/*
+ 1. Cho một mảng gồm n số tự nhiên, hãy viết hàm tính tổng n phần tử.
+ */
 func bai1(){
     let array = [2,5,10,15,30]
     var sum = 0
