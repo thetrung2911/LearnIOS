@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900170C122AD6E08006DC309 /* bai8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900170C022AD6E08006DC309 /* bai8.swift */; };
 		90030E7222A969C4007E3F26 /* bai5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90030E7122A969C4007E3F26 /* bai5.swift */; };
 		90030E7422A97151007E3F26 /* bai6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90030E7322A97151007E3F26 /* bai6.swift */; };
 		904C56ED22AA74000042293B /* bai7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C56EC22AA74000042293B /* bai7.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		900170C022AD6E08006DC309 /* bai8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai8.swift; sourceTree = "<group>"; };
 		90030E7122A969C4007E3F26 /* bai5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai5.swift; sourceTree = "<group>"; };
 		90030E7322A97151007E3F26 /* bai6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai6.swift; sourceTree = "<group>"; };
 		904C56EC22AA74000042293B /* bai7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bai7.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				90030E7122A969C4007E3F26 /* bai5.swift */,
 				90030E7322A97151007E3F26 /* bai6.swift */,
 				904C56EC22AA74000042293B /* bai7.swift */,
+				900170C022AD6E08006DC309 /* bai8.swift */,
 			);
 			path = ExLogic;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				9056289822A9038600425DFF /* bai3.swift in Sources */,
 				9056289622A8FCA000425DFF /* bai2.swift in Sources */,
 				9056289422A8F95A00425DFF /* bai1.swift in Sources */,
+				900170C122AD6E08006DC309 /* bai8.swift in Sources */,
 				9056288D22A8F94B00425DFF /* main.swift in Sources */,
 				9056289C22A9132E00425DFF /* bai4.swift in Sources */,
 			);

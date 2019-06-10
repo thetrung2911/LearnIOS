@@ -1,10 +1,4 @@
-//
-//  bai7.swift
-//  ExLogic
-//
-//  Created by Trung Le on 6/7/19.
-//  Copyright © 2019 Trung Le. All rights reserved.
-//
+
 
 import Foundation
 // Viết hàm xóa một dòng VÀ một cột trong ma trận

@@ -7,7 +7,8 @@
 //
 
 import Foundation
- bai8()
+bai8()
+main()
 
 
 

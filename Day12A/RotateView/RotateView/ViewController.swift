@@ -29,22 +29,30 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        clockface.center = view.center
         
-        hours.setAnchorPoint(CGPoint(x: 0.5, y: 0.9))
-        hours.center = view.center
-        
-        min.setAnchorPoint(CGPoint(x: 0.5, y: 0.9))
-        min.center = view.center
-        
-        bar.setAnchorPoint(CGPoint(x: 0.5, y: 0.9))
-        bar.center = view.center
-        
+        layoutView()
         secondTime = Timer.scheduledTimer(timeInterval: 1,
                                         target: self,
                                         selector: #selector(runSecond),
                                         userInfo: nil,
                                         repeats: true)
+    }
+    func layoutView(){
+        view.addSubview(clockface)
+        view.addSubview(hours)
+        view.addSubview(min)
+        view.addSubview(bar)
+        
+        clockface.center = view.center
+        
+        hours.setAnchorPoint(CGPoint(x: 0.5, y: 0.9))
+        hours.center = clockface.center
+        
+        min.setAnchorPoint(CGPoint(x: 0.5, y: 0.9))
+        min.center = clockface.center
+        
+        bar.setAnchorPoint(CGPoint(x: 0.5, y: 0.9))
+        bar.center = clockface.center
     }
     @objc func runSecond() {
         omega = CGFloat(pi / 30)

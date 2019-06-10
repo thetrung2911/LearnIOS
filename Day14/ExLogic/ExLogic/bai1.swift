@@ -1,10 +1,3 @@
-//
-//  bai1.swift
-//  ExLogic
-//
-//  Created by Trung Le on 6/6/19.
-//  Copyright © 2019 Trung Le. All rights reserved.
-//
 
 import Foundation
 // tổng các phần tử từ 0-n

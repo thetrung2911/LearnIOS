@@ -14,7 +14,7 @@ import Foundation
  */
 func bai8(){
     
-    let m = 6
+    let m = 9
     var matrix:[[Int]] = [[Int]](repeating:[Int](repeating:0, count: m), count:m)
     for i in 0..<Int((m+1) / 2){
        setArr(&matrix, i)
@@ -26,7 +26,7 @@ func bai8(){
     
     for i in 0..<matrix.count{
         for j in 0..<matrix[i].count{
-            print(matrix[i][j], terminator: " ")
+            print(String(format: " %2d",matrix[i][j]), terminator: " ")
         }
         print("")
     }
