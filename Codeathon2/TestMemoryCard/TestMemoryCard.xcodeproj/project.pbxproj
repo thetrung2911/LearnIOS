@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902EBE9622BBEDDA00DE7CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902EBE9522BBEDDA00DE7CAA /* AppDelegate.swift */; };
+		902EBE9822BBEDDA00DE7CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902EBE9722BBEDDA00DE7CAA /* ViewController.swift */; };
+		902EBE9B22BBEDDA00DE7CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902EBE9922BBEDDA00DE7CAA /* Main.storyboard */; };
+		902EBE9D22BBEDDB00DE7CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902EBE9C22BBEDDB00DE7CAA /* Assets.xcassets */; };
+		902EBEA022BBEDDB00DE7CAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902EBE9E22BBEDDB00DE7CAA /* LaunchScreen.storyboard */; };
+		902EBEAA22BBEF6B00DE7CAA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902EBEA922BBEF6B00DE7CAA /* Card.swift */; };
+		902EBEAC22BBF11B00DE7CAA /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902EBEAB22BBF11B00DE7CAA /* MemoryGame.swift */; };
+		9C27C8ACA8476A4261D4E52E /* Pods_TestMemoryCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C0BCEE97E74F260C53ECE8 /* Pods_TestMemoryCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049E8145C7BE27264E6AC934 /* Pods-TestMemoryCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMemoryCard.release.xcconfig"; path = "Target Support Files/Pods-TestMemoryCard/Pods-TestMemoryCard.release.xcconfig"; sourceTree = "<group>"; };
+		53C0BCEE97E74F260C53ECE8 /* Pods_TestMemoryCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMemoryCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902EBE9222BBEDDA00DE7CAA /* TestMemoryCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMemoryCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902EBE9522BBEDDA00DE7CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		902EBE9722BBEDDA00DE7CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		902EBE9A22BBEDDA00DE7CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		902EBE9C22BBEDDB00DE7CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		902EBE9F22BBEDDB00DE7CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		902EBEA122BBEDDB00DE7CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902EBEA922BBEF6B00DE7CAA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		902EBEAB22BBF11B00DE7CAA /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		F73838476C84D57A651D9B84 /* Pods-TestMemoryCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMemoryCard.debug.xcconfig"; path = "Target Support Files/Pods-TestMemoryCard/Pods-TestMemoryCard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902EBE8F22BBEDDA00DE7CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C27C8ACA8476A4261D4E52E /* Pods_TestMemoryCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2243F09E99895752F691B84F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C0BCEE97E74F260C53ECE8 /* Pods_TestMemoryCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902EBE8922BBEDDA00DE7CAA = {
+			isa = PBXGroup;
+			children = (
+				902EBE9422BBEDDA00DE7CAA /* TestMemoryCard */,
+				902EBE9322BBEDDA00DE7CAA /* Products */,
+				AEB40DA05AC9199F5D80854C /* Pods */,
+				2243F09E99895752F691B84F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		902EBE9322BBEDDA00DE7CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902EBE9222BBEDDA00DE7CAA /* TestMemoryCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902EBE9422BBEDDA00DE7CAA /* TestMemoryCard */ = {
+			isa = PBXGroup;
+			children = (
+				902EBE9522BBEDDA00DE7CAA /* AppDelegate.swift */,
+				902EBE9722BBEDDA00DE7CAA /* ViewController.swift */,
+				902EBE9922BBEDDA00DE7CAA /* Main.storyboard */,
+				902EBE9C22BBEDDB00DE7CAA /* Assets.xcassets */,
+				902EBE9E22BBEDDB00DE7CAA /* LaunchScreen.storyboard */,
+				902EBEA122BBEDDB00DE7CAA /* Info.plist */,
+				902EBEA922BBEF6B00DE7CAA /* Card.swift */,
+				902EBEAB22BBF11B00DE7CAA /* MemoryGame.swift */,
+			);
+			path = TestMemoryCard;
+			sourceTree = "<group>";
+		};
+		AEB40DA05AC9199F5D80854C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F73838476C84D57A651D9B84 /* Pods-TestMemoryCard.debug.xcconfig */,
+				049E8145C7BE27264E6AC934 /* Pods-TestMemoryCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902EBE9122BBEDDA00DE7CAA /* TestMemoryCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902EBEA422BBEDDB00DE7CAA /* Build configuration list for PBXNativeTarget "TestMemoryCard" */;
+			buildPhases = (
+				5A6010448E34FD433E1DE048 /* [CP] Check Pods Manifest.lock */,
+				902EBE8E22BBEDDA00DE7CAA /* Sources */,
+				902EBE8F22BBEDDA00DE7CAA /* Frameworks */,
+				902EBE9022BBEDDA00DE7CAA /* Resources */,
+				8D736173BA330FB87A09EE17 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMemoryCard;
+			productName = TestMemoryCard;
+			productReference = 902EBE9222BBEDDA00DE7CAA /* TestMemoryCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902EBE8A22BBEDDA00DE7CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Trung Le";
+				TargetAttributes = {
+					902EBE9122BBEDDA00DE7CAA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 902EBE8D22BBEDDA00DE7CAA /* Build configuration list for PBXProject "TestMemoryCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902EBE8922BBEDDA00DE7CAA;
+			productRefGroup = 902EBE9322BBEDDA00DE7CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902EBE9122BBEDDA00DE7CAA /* TestMemoryCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902EBE9022BBEDDA00DE7CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902EBEA022BBEDDB00DE7CAA /* LaunchScreen.storyboard in Resources */,
+				902EBE9D22BBEDDB00DE7CAA /* Assets.xcassets in Resources */,
+				902EBE9B22BBEDDA00DE7CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A6010448E34FD433E1DE048 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestMemoryCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D736173BA330FB87A09EE17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestMemoryCard/Pods-TestMemoryCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestMemoryCard/Pods-TestMemoryCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestMemoryCard/Pods-TestMemoryCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902EBE8E22BBEDDA00DE7CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902EBE9822BBEDDA00DE7CAA /* ViewController.swift in Sources */,
+				902EBEAA22BBEF6B00DE7CAA /* Card.swift in Sources */,
+				902EBEAC22BBF11B00DE7CAA /* MemoryGame.swift in Sources */,
+				902EBE9622BBEDDA00DE7CAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		902EBE9922BBEDDA00DE7CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902EBE9A22BBEDDA00DE7CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		902EBE9E22BBEDDB00DE7CAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902EBE9F22BBEDDB00DE7CAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902EBEA222BBEDDB00DE7CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		902EBEA322BBEDDB00DE7CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902EBEA522BBEDDB00DE7CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73838476C84D57A651D9B84 /* Pods-TestMemoryCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY3H774RHW;
+				INFOPLIST_FILE = TestMemoryCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestMemoryCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		902EBEA622BBEDDB00DE7CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049E8145C7BE27264E6AC934 /* Pods-TestMemoryCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY3H774RHW;
+				INFOPLIST_FILE = TestMemoryCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestMemoryCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902EBE8D22BBEDDA00DE7CAA /* Build configuration list for PBXProject "TestMemoryCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902EBEA222BBEDDB00DE7CAA /* Debug */,
+				902EBEA322BBEDDB00DE7CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902EBEA422BBEDDB00DE7CAA /* Build configuration list for PBXNativeTarget "TestMemoryCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902EBEA522BBEDDB00DE7CAA /* Debug */,
+				902EBEA622BBEDDB00DE7CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902EBE8A22BBEDDA00DE7CAA /* Project object */;
+}

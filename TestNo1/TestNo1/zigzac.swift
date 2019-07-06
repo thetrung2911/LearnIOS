@@ -103,3 +103,26 @@ func main() {
     }
     
 }
+
+
+// đã tối ưu code
+func buildZigZags(N: Int) -> [[Int]]{
+    var arr =  Array(repeating: Array(repeating: 0, count: N), count: N)
+    var num = 1
+    
+    //Xây dựng các đường chéo phụ từ 1 trở đi đến 2 * N - 2
+    for k in 1...2 * N - 2 {
+        let start = k < N ? 0 : k - N + 1
+        // Đường chéo phụ chẵn và lẻ khác nhau ở giá trị i, j
+        for i in start...(k-start) {
+            let j = k - i
+            if k % 2 == 0 {
+                arr[j][i] = num
+            } else {
+                arr[i][j] = num
+            }
+            num += 1
+        }
+    }
+    return arr
+}
